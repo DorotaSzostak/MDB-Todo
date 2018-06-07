@@ -6,9 +6,7 @@ import TodoList from './TodoList';
 class App extends Component {
   render() {
     return (
-      <div className="button__wrapper">
-
-      
+      <div>
       <TodoList />
       </div>
     );

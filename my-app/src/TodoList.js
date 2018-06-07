@@ -41,7 +41,7 @@ class TodoList extends Component {
   render (){
       const {newTodo} = this.state;
       const todos = this.state.todos.map((name, index) => (
-        <li key={index} text={name.name}>Task number {index}</li>
+        <li key={index} text={name.name}>Task number {index + 1}</li>
       ))
 
     return (
