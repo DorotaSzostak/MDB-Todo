@@ -14,5 +14,3 @@ class App extends Component {
 }
 
 export default App;
-
-//po kliknięciu w add -> pojawia się li z trescią "task number + numer zadania"
